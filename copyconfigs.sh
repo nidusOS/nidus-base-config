@@ -21,6 +21,7 @@ cp ~/.config/gtk-3.0/settings.ini $CONFDIR/.config/gtk-3.0
 cp -R ~/.local/bin/ $CONFDIR/.local/
 cp -R ~/.xmonad/ $CONFDIR
 
+cp ~/.gtkrc-2.0 $CONFDIR
 cp ~/.bashrc $CONFDIR
 cp ~/.zshrc $CONFDIR
 cp ~/.Xresources $CONFDIR
