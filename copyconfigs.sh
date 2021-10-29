@@ -1,4 +1,5 @@
 #!/bin/sh
+HOMECONF=~/nidus/skel
 CONFDIR=etc/skel
 
 rm -rf etc
@@ -10,21 +11,20 @@ mkdir -p $CONFDIR/.config/volumeicon
 mkdir -p $CONFDIR/.config/lxsession/xmonad
 mkdir -p $CONFDIR/.local
 
-cp -R ~/.config/alacritty/ $CONFDIR/.config/
-cp -R ~/.config/conky/doomone-xmonad.conkyrc $CONFDIR/.config/conky/
-cp -R ~/.config/doom/ $CONFDIR/.config/
-cp -R ~/.config/fish/config.fish $CONFDIR/.config/fish/config.fish
-cp -R ~/.config/qutebrowser/ $CONFDIR/.config/
-cp -R ~/.config/sxiv/ $CONFDIR/.config/
-cp -R ~/.config/xmobar/ $CONFDIR/.config/
-cp -R ~/.config/lxsession/xmonad $CONFDIR/.config/lxsession
-cp ~/.config/volumeicon/volumeicon $CONFDIR/.config/volumeicon
-cp ~/.config/gtk-3.0/settings.ini $CONFDIR/.config/gtk-3.0
-cp -R ~/.local/bin/ $CONFDIR/.local/
-cp -R ~/.xmonad/ $CONFDIR
+cp -R $HOMECONF/.config/alacritty/ $CONFDIR/.config/
+cp -R $HOMECONF/.config/conky/doomone-xmonad.conkyrc $CONFDIR/.config/conky/
+cp -R $HOMECONF/.config/doom/ $CONFDIR/.config/
+cp -R $HOMECONF/.config/fish/config.fish $CONFDIR/.config/fish/config.fish
+cp -R $HOMECONF/.config/qutebrowser/ $CONFDIR/.config/
+cp -R $HOMECONF/.config/sxiv/ $CONFDIR/.config/
+cp -R $HOMECONF/.config/xmobar/ $CONFDIR/.config/
+cp -R $HOMECONF/.config/lxsession/xmonad $CONFDIR/.config/lxsession
+cp $HOMECONF/.config/volumeicon/volumeicon $CONFDIR/.config/volumeicon
+cp $HOMECONF/.config/gtk-3.0/settings.ini $CONFDIR/.config/gtk-3.0
+cp -R $HOMECONF/.local/bin/ $CONFDIR/.local/
+cp -R $HOMECONF/.xmonad/ $CONFDIR
 
-cp ~/.gtkrc-2.0 $CONFDIR
-cp ~/.bashrc $CONFDIR
-cp ~/.zshrc $CONFDIR
-cp ~/.Xresources $CONFDIR
-cp ~/.wall $CONFDIR
+cp $HOMECONF/.gtkrc-2.0 $CONFDIR
+cp $HOMECONF/.bashrc $CONFDIR
+cp $HOMECONF/.Xresources $CONFDIR
+cp $HOMECONF/.wall $CONFDIR

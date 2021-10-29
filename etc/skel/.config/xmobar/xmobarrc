@@ -1,8 +1,21 @@
--- Xmobar (http://projects.haskell.org/xmobar/)
--- This is the default xmobar configuration for DTOS.
--- This config is packaged in the DTOS repo as dtos-xmobar
--- Dependencies: otf-font-awesome ttf-mononoki ttf-ubuntu-font-family trayer
--- Also depends on scripts from dtos-local-bin from the dtos-core-repo.
+--       _   _         _____ _____ 
+--   ___|_|_| |_ _ ___|     |   __|
+--  |   | | . | | |_ -|  |  |__   |
+--  |_|_|_|___|___|___|_____|_____|
+--  
+--  nidusOS - Clean & minimal Arch Linux based Linux distribution.
+--  
+--  Maintainer: 	Chris Brame
+--  File: 	config.fish
+--  Date: 	10/23/2021
+--
+--  Description: fish shell configuration file. 
+--
+--  Fork: This file was initially forked from: 
+-- 	 Derek Taylor (DistroTube)
+-- 	 https://www.youtube.com/c/DistroTube
+-- 	 http://www.gitlab.com/dwt1
+
 
 Config { font            = "xft:Ubuntu:weight=bold:pixelsize=11:antialias=true:hinting=true"
        , additionalFonts = [ "xft:Mononoki:pixelsize=11:antialias=true:hinting=true"
