@@ -4,8 +4,7 @@
 ! | |_| || |    http://www.gitlab.com/dwt1/ 
 ! |____/ |_|  	
 
-Xcursor.theme: xcursor-breeze
-
+Xcursor.theme: Breeze_Snow
 Xft.dpi: 96
 Xft.antialias: true
 Xft.hinting: true
