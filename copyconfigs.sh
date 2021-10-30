@@ -5,6 +5,7 @@ CONFDIR=etc/skel
 rm -rf etc
 mkdir -p $CONFDIR/.config
 mkdir -p $CONFDIR/.config/conky
+mkdir -p $CONFDIR/.config/dmscripts
 mkdir -p $CONFDIR/.config/fish
 mkdir -p $CONFDIR/.config/gtk-3.0
 mkdir -p $CONFDIR/.config/volumeicon
@@ -13,6 +14,7 @@ mkdir -p $CONFDIR/.local
 
 cp -R $HOMECONF/.config/alacritty/ $CONFDIR/.config/
 cp -R $HOMECONF/.config/conky/doomone-xmonad.conkyrc $CONFDIR/.config/conky/
+cp -R $HOMECONF/.config/dmscripts/config $CONFDIR/.config/dmscripts/config
 cp -R $HOMECONF/.config/doom/ $CONFDIR/.config/
 cp -R $HOMECONF/.config/fish/config.fish $CONFDIR/.config/fish/config.fish
 cp -R $HOMECONF/.config/qutebrowser/ $CONFDIR/.config/
