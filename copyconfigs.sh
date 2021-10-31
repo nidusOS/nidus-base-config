@@ -14,7 +14,7 @@ mkdir -p $CONFDIR/.local
 
 cp -R $HOMECONF/.config/alacritty/ $CONFDIR/.config/
 cp -R $HOMECONF/.config/conky/doomone-xmonad.conkyrc $CONFDIR/.config/conky/
-cp -R $HOMECONF/.config/dmscripts/config $CONFDIR/.config/dmscripts/config
+cp -R $HOMECONF/.config/dmscripts/config $CONFDIR/.config/dmscripts/
 cp -R $HOMECONF/.config/doom/ $CONFDIR/.config/
 cp -R $HOMECONF/.config/fish/config.fish $CONFDIR/.config/fish/config.fish
 cp -R $HOMECONF/.config/qutebrowser/ $CONFDIR/.config/
